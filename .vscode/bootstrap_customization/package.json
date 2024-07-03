@@ -1,0 +1,18 @@
+{
+  "name": "bootstrap-customization",
+  "version": "1.0.0",
+  "description": "customization project",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map sass:css",
+    "sass:watch": "sass --no-source-map --watch sass:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}
