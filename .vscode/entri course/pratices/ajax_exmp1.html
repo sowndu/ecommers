@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+</head>
+<body>
+    <input type="submit" class="button" id="reqbtn" value="fetch data">
+    <div class="data"></div>
+
+    <script>
+        // let btn = document.getElementById("reqbtn")
+         //let datael = document.getElementById("data")
+         //btn.addEventListener('click',loadContant)
+        // function loadContant(){
+        //     let xhr =new XMLHttpRequest()
+        //     xhr.open("GET","ajax_doc.txt",true)
+        //     xhr.send()
+        //     xhr.onload=function(){
+        //         console.log("entred")
+        //         datael.innerText=xhr.responseText
+        //     }
+        //     xhr.onprogress=function(){
+        //         console.log("loading")
+        //     }
+        // }
+//it is api addtessurl function
+         let btn = document.getElementById("reqbtn")
+         let datael = document.getElementById("data")
+         
+         btn.addEventListener('click',loadContant)
+         function loadContant(){
+            let xhr =new XMLHttpRequest()
+            xhr.open("GET","https://restcountries.com/v3.1/name/india",true)
+            xhr.send()
+            xhr.onload=function(){
+                if(xhr.status===200)
+                    {
+                        let result=xhr.responseText
+                        console.log(result)
+                        let [r]=JSON.parse(result)
+                        console.log(r)
+                    }
+                    else{
+                        console.loge("invalid result")
+                    }
+                
+                }
+
+            }
+    </script>
+</body>
+</html>

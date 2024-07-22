@@ -1,0 +1,94 @@
+table{
+    width: 100%;
+    background-color:black;
+   
+}
+th a{
+    color: white;
+    text-decoration: none;
+}
+#logo1{
+    background-color: black url("logo.png");
+    position: relative;
+   /* left: 30px;
+    top: 50px;*/
+    
+}
+#logo{
+    position: fixed;
+}
+
+
+nav{
+    background-color: rgb(10, 10, 10);
+   margin: 0px;
+   padding: 20px;
+}
+ul{
+    list-style: none;
+   margin: 0px;
+   padding: 0px;
+   /*overflow: hidden;*/
+}
+li{
+   float: left;
+ 
+   padding: 0px;
+
+   /*display: inline;*/
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+
+#search{
+    float: right;
+}
+button{
+    float: right;
+    cursor: pointer;
+}
+.sec1{
+    background-color: green;
+   padding: 40px 50px;
+    position: sticky;
+    top: 20px;
+   
+}
+.sec2{
+    background-color: blue;
+    padding: 50px 50px;
+}
+aside{
+    background-color: brown;
+    text-align: center;
+    margin: 5px 0px 10px 250px;
+    padding: 3px;
+    text-decoration: underline;
+   text-decoration-color: aliceblue; 
+   text-shadow: 3px 3px 5px rgb(194, 181, 181);
+   text-wrap: wrap;
+}
+figure{
+    text-align: right;
+}
+details{
+    background-color: blueviolet;
+    cursor: pointer;
+    padding: 3px;
+}
+footer{
+    background-color: darkkhaki;
+    padding: 1px 3px 1px 8px;
+ 
+}
+/*body{
+    background-image: url(logo.png);
+}*/

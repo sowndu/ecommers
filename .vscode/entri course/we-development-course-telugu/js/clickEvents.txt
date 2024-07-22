@@ -1,0 +1,3 @@
+to main types - 
+onclick - click button
+ondbclick - double click

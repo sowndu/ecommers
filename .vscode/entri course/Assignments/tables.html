@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,tr{
+            border-collapse: collapse;
+           margin: auto;
+           padding: 5px 5px;
+        }
+      #tt{
+            text-align:center;
+        }
+        th{
+            background-color: rgb(84, 73, 238);
+    
+        }
+        .m{
+            background-color: rgb(99, 228, 99);
+        }
+        .h{
+            background-color: rgb(240, 180, 70);
+        }
+        .e{
+            background-color: rgb(248, 248, 88);
+        }
+        .p{
+            background-color: rgb(247, 145, 162);
+        }
+        .per{
+            background-color: rgb(240, 92, 240);
+        }
+        .r{
+            background-color: rgb(255, 117, 117);
+        }
+        #lb{
+            background-color: rgb(151, 230, 151);
+        }
+        #g{
+            background-color: rgb(7, 241, 241);
+        }
+        #hol{
+            background-color: rgb(245, 116, 191);
+        }
+        #dtb{
+            background-color: rgb(154, 134, 245);
+        }
+        .time{
+            background-color: rgb(93, 193, 240);
+        }
+       /* @media (max-width:555px){
+            #tt{
+                 position :relative;
+                right: 20px;
+            }
+            h1{
+                position: absolute;
+                text-align: center;
+            }
+           
+        }*/
+    </style>
+</head>
+
+<body>
+    <div id="tt">
+    <h1>Time table</h1>
+    <table border="1">
+    <thead>
+        <th>Time/Day</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>saturday</th>
+        <th>Sunday</th>
+    </thead>
+    <tbody>
+        <tr>
+        <th class="time">9:00AM</th>
+        <td rowspan="3" class="m">Maths</td>
+        <td colspan="3" class="per">Telugu</td>
+        <td class="h">Hindi</td>
+        <td id="g">Games</td>
+        <td rowspan="8" id="hol">Holiday</td>
+    </tr>
+        <tr>
+            <th class="time">10:00AM</th>
+            <td class="p">Physics</td>
+            <td class="r">Social</td>
+            <td rowspan="2" class="m">Maths</td>
+            <td class="e">English</td>
+            <td class="per">Telugu</td>
+        </tr>
+        <tr>
+         <th class="time">11:00AM</th>
+         <td colspan="2" class="e">English</td>
+         <td class="per">Telugu</td>
+         <td class="h">Hindi</td>
+        </tr>
+        <tr>
+            <th class="time">12:00AM</th>
+            <td colspan="6" id="lb">Lunch Break</td>
+        </tr>
+        <tr>
+            <th class="time">1:00PM</th>
+            <td class="e">English</td>
+            <td colspan="3" class="h">Hindi</td>
+            <td rowspan="3" class="m">Maths</td>
+            <td class="r">Social</td>
+        </tr>
+     <tr>
+         <th class="time">2:00PM</th>
+         <td rowspan="2" class="p">Physics</td>
+         <td rowspan="2" class="m">Maths</td>
+         <td colspan="2" class="e">English</td>
+         <td rowspan="2" class="p">Physics</td>
+    </tr>
+    <tr>
+        <th class="time">3:00PM</th>
+        <td colspan="2" class="per">Telugu</td>
+    </tr>
+    <tr>
+        <th class="time">4:00PM</th>
+        <td class="r">Social</td>
+        <td colspan="3" class="p">Physics</td>
+        <td class="r">Social</td>
+        <td class="m">Maths</td>
+    </tr>
+      <tfoot>
+        <th colspan="8" id="dtb">Daily time table</th>
+    </tfoot>
+    </tbody>
+</table>
+</div>
+</body>
+</html>

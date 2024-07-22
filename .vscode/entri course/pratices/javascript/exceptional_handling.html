@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exceptional handling</title>
+</head>
+<body>
+    
+    <script>
+       // this is try, catch statements
+        // try{
+        //     var a=["33","34","35","36","37"];
+        //     document.write(a);
+        //     document.write(b);
+        //     }
+        //     catch(e){
+        //     alert("There is a error which shows" + e.message);
+        //     }
+
+        //this is throw statement
+        // try{
+        //     throw new Error("This is a user define error");
+        // }
+        // catch(e){
+        //    document.write(e.message);
+        //   // console.log(e.message)
+        //  // alert(e.message)
+        // }
+
+        //this is finally statement
+
+        try{
+            throw new Error("This is a user define error");
+           document.write("before finally");
+             }
+             catch(e){
+             console.log("There is a error which shows" + e.message);
+             }
+             finally{
+                document.write("after finally");
+             }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest Number</title>
+</head>
+<body>
+    <h2>Find the largest number inpute:1000,540,800</h2>
+    <script>
+        //using Math.max() method
+        // function largest(num1,num2,num3){
+        //     return Math.max(num1,num2,num3);
+        // }
+        // const numbers = largest(1000,540,800);
+        // console.log(numbers);
+        function largest(num1,num2,num3){
+            if(num1>=num2 && num1>=num3){
+                return num1;
+            }
+            else if(num2>=num1 && num2>=num){
+                return num2;
+            }
+            else{
+                return num3;
+            }
+        }
+        const numbers = largest(1000,540,800);
+        console.log(numbers);
+        document.write(numbers);
+    </script>
+</body>
+</html>

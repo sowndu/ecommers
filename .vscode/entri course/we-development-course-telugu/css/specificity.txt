@@ -1,0 +1,14 @@
+styling?
+
+inline
+class,ids
+elements
+
+which order will take first, if element have all styles
+
+order:
+
+1. inline
+2. ids
+3. classe
+4. element

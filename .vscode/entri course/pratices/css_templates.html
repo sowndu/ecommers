@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Templates</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*style the header part or nav bar*/
+        .header{
+          background-color: #333;
+          overflow: hidden;
+        }
+        /*style the header links*/
+        .header a{
+           float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration:none;
+
+        }
+        /* change color on hover*/
+
+        .header a:hover{
+            color: rgb(29, 28, 28);
+           background-color: #ddd;
+        }
+        /*style the content*/
+        .content{
+            background-color: rgb(240, 240, 247);
+            padding: 10px;
+            height: 200px;
+
+        }
+        /*style for footer*/
+        .footer{
+            background-color: #918b8b;
+            padding: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="">link1</a>
+        <a href="">link2</a>
+        <a href="">link3</a>
+
+    </div>
+
+    <div class="content">
+         <h2>Hello World</h2>
+         <p>This is some dummy text</p>
+    </div>
+
+    <div class="footer">
+       <p>This is footer</p>
+    </div>
+</body>
+</html>

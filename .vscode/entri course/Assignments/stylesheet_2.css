@@ -1,0 +1,65 @@
+.container{
+    background-color: rgb(186, 7, 241);
+    margin: 0px;
+}
+.head{
+    color: white;
+    padding: 4px;
+}
+.over{
+   border: 1px solid rgb(230, 14, 194);
+   margin: 10px;
+   padding: 4px;
+   background-color: white;
+}
+.menuitem{
+    list-style-type: none;
+    float: right;
+   
+}
+#menulist2{
+    border: 1px solid rgb(221, 48, 212);
+    border-radius: 10px;
+    margin: 2px;
+   padding: 4px;
+   background-color: rgb(236, 234, 238);
+  
+}
+#menulist2 a{
+    color: blueviolet;
+}
+#menulist{
+    
+    border: 1px solid rgb(221, 48, 212);
+    border-radius: 10px;
+    margin: 2px;
+   padding: 4px;
+   background-color: blueviolet;
+   
+}
+li a{
+    color: white;
+   
+}
+/*li a:hover{
+    background-color: white;
+    color: blueviolet;
+}*/
+.container a{
+    text-decoration: none;
+   
+}
+.text{
+    color: blueviolet;
+}
+.sidebar{
+    background-color: rgba(192, 148, 233, 0.849);
+    color: rgb(33, 4, 59);
+   padding: 2px;
+    
+}
+.foot{
+    color: white;
+    padding: 2px;
+    margin: 1px;
+}

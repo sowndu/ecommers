@@ -1,0 +1,9 @@
+survey form
+-> name
+-> ph nuber
+-> email id
+-> age
+-> skill
+-> cgpa
+-> year of passout
+-> submit button

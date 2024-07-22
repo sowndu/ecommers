@@ -1,0 +1,4 @@
+css -> cascading style sheets
+where to write css code ->
+-> in the html file
+-> outside the html file

@@ -1,0 +1,60 @@
+.container{
+    background-color: black;
+    color:greenyellow;
+   font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+
+h2,h3,h4{
+    color: rgb(101, 199, 21);
+}
+.para{
+    color: rgb(95, 116, 19);
+}
+#menulist{
+    
+    width: 25%;
+}
+#menulist a{
+    text-decoration: none;
+    color: rgb(95, 116, 19);
+    
+}
+#menulist4 a{
+  text-decoration: none;
+}
+#menulist a:hover{
+  
+    color: white;
+}
+a {
+    color: white;
+}
+.sidebar{
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 2px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 35%;
+    height: 42%;
+}
+.contant{
+    padding: 10px;
+    margin: 5px 300px 5px 5px;
+    
+    
+}
+.over{
+    padding: 2px;
+    position: relative;
+}
+.foot{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    color: white;
+}

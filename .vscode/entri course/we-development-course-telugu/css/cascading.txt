@@ -1,0 +1,4 @@
+multiple values have same property and the same specificity level that the last value is applied
+
+example:
+<h2 style="color:blue; color:brown;">hello world</h2>

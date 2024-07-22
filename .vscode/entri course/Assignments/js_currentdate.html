@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Date</title>
+</head>
+<body>
+    <h2>Display the current Date:</h2>
+    <script>
+        // let date = new Date().toDateString();
+        // console.log(date);
+        let today= new Date();
+        let month = String(today.getMonth());
+        let date = String(today.getDate())
+        let year = String(today.getFullYear());
+        let output = date+'/'+month+'/'+year;
+        let output2 = date+'-'+month+'-'+year;
+        console.log(output);
+        console.log(output2);
+        document.write(output+"<br>");
+        document.write(output2)
+    </script>
+</body>
+</html>

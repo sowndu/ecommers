@@ -1,0 +1,47 @@
+
+h1,h2,h3,h4{
+    color: rgba(7, 78, 28, 0.842);
+}
+.menuitem{
+    list-style-type: none;
+   display: inline-flex;
+}
+#menulist a{
+    text-decoration: none;
+   color: white;
+  
+}
+#menulist3{
+    border: 1px solid rgb(51, 50, 50);
+    margin: 2px;
+    width: 100%;
+    background-color:rgb(38, 82, 3);
+   text-align: center;
+}
+#menulist3 a{
+    text-decoration: none;
+    color: white;
+}
+#menulist{
+    border: 1px solid rgb(51, 50, 50);
+    margin: 2px;
+    width: 100%;
+    background-color: rgb(16, 138, 87);
+   text-align: center;
+   
+}
+.sidebar{
+    border: 1px solid rgb(228, 221, 221);
+    padding: 3px;
+    background-color: rgba(146, 166, 189, 0.911);
+    border-radius: 2px;
+}
+.contant a{
+    color: black;
+}
+#menulist:hover{
+    background-color: rgb(15, 82, 7);
+    color: white;
+    cursor: pointer;
+    border: 1px solid green;
+}

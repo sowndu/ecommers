@@ -1,0 +1,9 @@
+onblur - when a user leaves input field
+onchange - when the user change the contant of the input field
+onfocus - when the use over the mouse or click are used then onfocus will      start 
+onselect - select 
+onsubmit - submit button
+onreset - reset button
+onkeydown - click the down 
+onkeypass - any key to press it will be triger
+onkeyup - leave the button then it will be up

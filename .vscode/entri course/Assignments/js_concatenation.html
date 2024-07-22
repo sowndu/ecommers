@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Concatenation </title>
+</head>
+<body>
+    <h2>Two strings Concatenation</h2>
+    <script>
+        function concatenation(str1,str2)
+{
+    // the number 1 before string length indecate the how many character cut in first word eg:if we give 2 the ph will be cut
+    str1 =str1.substring(1,str1.length);
+    str2 = str2.substring(1,str2.length);
+    return str1 + str2;
+} 
+console.log(concatenation('PHP','JS'));
+console.log(concatenation('AB','CD'));
+console.log(concatenation('JAVA','SCRIPT'));
+document.write(concatenation('PHP','JS')+"<br>");
+document.write(concatenation('AB','CD')+"<br>");
+document.write(concatenation('JAVA','SCRIPT'));
+       </script>
+</body>
+</html>

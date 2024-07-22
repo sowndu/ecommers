@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Integers</title>
+</head>
+<body>
+    <div>
+        <h2>
+            sum of two Integers,range b/w 50..80
+        </h2>
+    </div>
+    <script>
+        //define a function named sortasSum using arrow fun syntax with parameters x and y
+        const sortaSum = (x,y)=>{
+                //calculate the sum of x and y
+            const sum_num = x+y;
+        //check if the sum id between 50 and 80(inclusive)
+            if(sum_num>=50 && sum_num<=80)
+        {//return 65 if the condition is true
+            return 65;
+        }
+        else
+        {//return 80 if the condition is false
+            return 80;
+        }
+       
+        }
+        //log the result of calling sortaSum with the arguments 30 and 20 to rhe console
+        console.log(sortaSum(30,20));
+        //log the result of calling sortaSum with the arguments 90 and 80 to rhe console
+      console.log(sortaSum(90,80));
+    </script>
+</body>
+</html>

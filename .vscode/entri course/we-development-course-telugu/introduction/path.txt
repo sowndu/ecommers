@@ -1,0 +1,14 @@
+paths- absolute path & relative path
+Image that we are talking about is entri.jpg
+Relative path
+->src="entri.jpg" - in the same folder as this file
+->src="images/entri.jpg" - in the image folder and the image folder is in the same this file
+->src="/images/entri.jpg" - in the image folder and the image folder is is at the root directory
+->src="../entri.jpg" - in the image folder and the image folder is one level up from the folder
+
+wherw are paths used in html?
+->images
+->style sheet(css)
+->js files
+->external links
+->link to another html pageof the same project

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Triangle</title>
+</head>
+<body>
+    <div id="div1">
+        <h2>Find Area of Triangle in JS</h2>
+    </div>
+    <script>
+        //define the lengths of the three sides of a triangle
+        const side1 = 5;
+        const side2 = 6;
+        const side3 = 7;
+        //calculate the semi-perimeter of the triangle
+        const s = (side1+side2+side3)/2;
+        //use heron's formula to calculate the area of triangle
+        const area = Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+        //log the calculate area to the console
+        console.log(area);
+    </script>
+</body>
+</html>

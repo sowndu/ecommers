@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <img src="flower1.jpg" alt="flower1 image" usemap="m1" >
+    <map name="m1">
+        <area shape="rect" coords="0,0,400,350" href="flower2.jpg" alt="clickable">
+    </map>
+    <picture>
+        <!-- media -> use for min or max the screen and pic will change-->
+        <!-- srcset -> screen set for pics-->
+    <source media="(min-width:650px)" srcset="flower2.jpg">
+    <img src="flower1.jpg" alt="flower1" style="width: auto;">
+</picture>
+<!-- controls autoplay muted -> used for buttons and start and pouse the audio or video-->
+<audio src="#.mp3" controls autoplay muted>error loading audio</audio>
+<!-- poster -> used for set the image on the video-->
+<video src="#.mp4" controls autoplay muted poster="flower2.jpg">error loading video</video>
+
+<img src="food.jpg" alt="food img" usemap="map1" width="400" height="350">
+<map name="map1">
+    <area shape="rect" coords="34,44,270,350" href="flower2.jpg" alt="flower2 img">
+</map>
+
+</body>
+</html>

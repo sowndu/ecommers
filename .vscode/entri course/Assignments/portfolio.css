@@ -1,0 +1,224 @@
+
+/*Header css Starts*/
+#table1{
+    background-color: greenyellow;
+    width: 100%;
+}
+th{
+    padding: 10px 5px 10px 10px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.head{
+    text-align: center;
+    padding: 5px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+td a{
+    text-decoration: none;
+    display: block;
+    color:black ;
+}
+/*Header css Ends*/
+
+
+/*Using  list css in header path*/
+/*.list{
+    list-style-type: none;   
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: rgb(3, 143, 3);
+}
+#head{
+    font-size: large;
+    font-weight: 2000;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}*/
+
+
+/*Section1 css Starts*/
+.section1{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#el{
+    text-align: center;
+}
+#am{
+    text-align: center;
+   text-decoration: underline;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+pre{
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+}
+figure{
+ top: 50px;
+}
+/*Section1 css Ends*/
+
+/*Section2 css Starts*/
+.section2{
+    background-color: rgb(191, 218, 241);
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#proj{
+    text-align: center;
+    text-decoration: underline;
+  
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.list1 a{
+text-decoration: none;
+}
+/*Section2 css Ends*/
+
+/*Section3 css Starts*/
+.section3{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ach{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+   
+    color: green;
+}
+/*Section3 css Ends*/
+
+/*Section4 css Starts*/
+.section4{
+    background-color: rgb(214, 193, 167);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#cont{
+    text-align: center;
+    text-decoration: underline;
+   
+}
+/*Section4 css Forms Starts*/
+form{
+    border: 3px solid black;
+ width: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 50px;
+   
+ box-sizing: border-box;
+ 
+}
+#name{
+    width: 40%;
+    padding: 5px 10px;
+    margin: 10px 10%;
+    box-sizing: border-box;
+}
+#mail{
+    width: 40%;
+    padding: 5px 10px;
+    margin: 10px 10% ;
+    box-sizing: border-box;
+}
+#num{
+    width: 40%;
+    padding: 5px 10px;
+    margin: 10px 8%;
+    box-sizing: border-box;
+}
+#msg{
+    width: 40%;
+    padding: 5px 10px;
+    margin: 10px 8%;
+    box-sizing: border-box;
+}
+#btn{
+   
+    padding:5px 10px;
+    cursor: pointer;
+ margin: 5px 21%;
+    
+}
+/*Section4 css Form Ends*/
+/*Section4 css Ends*/
+
+/*Section5 css Starts*/
+.section5{
+    background-color: rgb(8, 194, 8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#table2{
+    text-align: center;
+    width: 100%;
+}
+/*Using List */
+/*#list3{
+    list-style-type: none;
+    
+}*/
+/*Section5 css Ends*/
+
+/*Section6 css Starts*/
+.section6{
+    background-color: rgb(12, 10, 14);
+    padding: 10px;
+    
+    color: white;
+}
+footer a{
+    
+    text-decoration: none;
+   color: rgb(10, 179, 94);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: large;
+  
+}
+/**Section6 css Ends/
+/*
+
+        .nav {
+            width: 100vw;
+            height: 40vh;
+            background-color: #3944F7;
+            font-size: x-large;
+            color: white;
+            text-align: center;
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            place-items: center;
+        }
+ 
+        .btn {
+            color: white;
+            background-color: #38CC77;
+            height: 40px;
+            width: 90px;
+            padding: 2px;
+            border: 2px solid black;
+            text-decoration: none;
+        }
+*/

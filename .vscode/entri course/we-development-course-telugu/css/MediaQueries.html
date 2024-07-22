@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .container{
+            background-color: red;
+            color: white;
+            padding: 25px;
+        }
+        /*This media print use to print the text in color, press control p in output print color will be blue*/
+        @media print{
+            .container{
+                color: blue;
+            }
+        }
+        /*This media screen use to print on the screen not work the color blue in print, press control p in output*/
+        @media screen{
+            .container{
+                color: blue;
+            }
+        }
+        /*stright forword is comma","
+        apply comma for above medias*/
+       @media screen,print{
+               .container{
+                color: blue;
+               }
+        }
+       @media(min-width:900px){
+            .container{
+                background-color: blue;
+            }
+        }
+        /* we can also use max-width, min-height, max-height.
+        ->In min-width is 900px ->the blue color will print after the width 900
+        ->In max-width is 900px ->the color blue will print before the 900 */
+
+        /*Appling AND Operator for media*/
+        @media(min-width:300px) and (max-width:900px){
+            .container{
+               /* background-color: blue;
+            }
+        }
+
+        /*Appling NOT OPerator for edia min
+        after 300px the color will not change to blue because NOT operator is used*/
+        @media(not (min-width:300px)) and (max-width:600px){
+            .container{background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World!</h1>
+    </div>
+
+</body>
+</html>

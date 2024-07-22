@@ -1,0 +1,5 @@
+onmouseover
+onmousedown - when we click the botton it will go down
+onmouseup - leave the button
+onmousemove - if we move the mouse on image
+onmouseout - come out from image

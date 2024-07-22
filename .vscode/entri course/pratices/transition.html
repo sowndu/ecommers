@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        div #name,#num,#mail,#add{
+            width: 50px;
+            transition: width 2s;
+            padding: 3px;
+            margin: 3px;
+        }
+        div #name:hover{
+            width: 150px;
+        }
+        div #num:hover{
+            width: 150px;
+        }
+        div #mail:hover{
+            width: 150px;
+        }
+        div #add:hover{
+            width: 150px;
+        }
+    
+       
+    </style>
+</head>
+<body>
+    <div>
+  
+       <label for="name">Name</label>
+     
+        <input type="text" name="name" id="name">
+     
+       <br>
+       <label for="num">Number</label>
+       <input type="tel" name="num" id="num"><br>
+       <label for="mail">Email</label>
+       <input type="email" name="mail" id="mail"><br>
+       <label for="add">Address</label>
+       <input type="text" name="add" id="add"><br>
+       <button type="submit">submit</button>
+  
+</div>
+</body>
+</html>

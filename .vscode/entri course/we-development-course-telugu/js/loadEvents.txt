@@ -1,0 +1,4 @@
+onload - if page is load
+onerror - loading error image or page
+onunload - colse the browser
+onresize - resize the page or browser

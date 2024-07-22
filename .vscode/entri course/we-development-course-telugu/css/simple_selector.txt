@@ -1,0 +1,29 @@
+with id
+#id1{
+    prop:val;
+}
+
+with class
+.class{
+    prop:val;
+}
+
+all
+*{
+    prop:val;
+}
+
+with element
+p{
+    prop:val;
+}
+
+selects only p element with classname = class1 
+p.class{
+     prop:val;
+}
+
+with group of element
+p,h1{
+    prop:val;
+}
